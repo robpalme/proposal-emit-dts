@@ -1,4 +1,4 @@
-import Lib from "../lib/main";
+import Lib from "@lib";
 
 const foo: Lib.Foo = Lib.createFoo();
 
