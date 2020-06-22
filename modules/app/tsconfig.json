@@ -7,7 +7,7 @@
         "strict": true,
         "composite": true,
         "paths": {
-            "#canonicalized@lib": ["../lib/main"]
+            "#canonicalized@lib": ["../lib/.out/main"]
         }
     },
     "include": [
