@@ -5,12 +5,16 @@
         "declaration": true,
         "allowJs": true,
         "strict": true,
-        "composite": true
+        "composite": true,
+        "paths": {
+            "#canonicalized@lib": ["../lib/main"]
+        }
     },
     "include": [
         "**/*.js",
         "**/*.ts"
     ],
+    
     "references": [
         {
             "path": "../lib"
