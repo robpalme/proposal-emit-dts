@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "outDir": "./.out",
+        "baseUrl": ".",
+        "declaration": true,
+        "allowJs": true,
+        "strict": true,
+        "composite": true
+    },
+    "include": [
+        "**/*.js",
+        "**/*.ts"
+    ]
+}
