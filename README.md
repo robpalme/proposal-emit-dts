@@ -18,7 +18,11 @@ You can work-around lack of by `"emitDts": true` by writing a build-script that 
 
 ## Examples
 
-TODO: link to this repo
+This repo is an example of how importing handwritten `.d.ts` goes wrong today.
+Build it using `tsc -b`.
+
+[`./app-src/app.ts`] should error but it does not.
+[`./app-src/app.ts`]  incorrectly has access to `hiddenBar` because [`./lib-src/main.d.ts`] is being ignored.
 
 ## Checklist
 
