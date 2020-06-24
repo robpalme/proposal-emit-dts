@@ -23,7 +23,7 @@ Project References allow you to import types a from sibling project's _source_ d
 
 Why would people link to generated code?  Because it helps simulate the experience of importing published code. 
 
-You can work-around lack of `"emitDts": true` by writing a build-script that copies the desired `d.ts` into the `outdir`.  This works fine for tsc builds.  However for VS Code (language service), it doesn't know about the build-script, and so always ignores the hand-written `.d.ts` and favours the `.js`-generated version.  There is no work-around.  Even if you overwrite the file in the `outDir` on disk with a build-script, the language service sees the `.js`-generated version.
+You can work-around lack of `"emitDts": true` by writing a build-script that copies the desired `d.ts` into the `outdir`.  This works fine for tsc builds.  However for IDEs (using the language service), it doesn't know about the build-script, and so always ignores the hand-written `.d.ts` and favours the `.js`-generated version.  There is no work-around.  Even if you overwrite the file in the `outDir` on disk with a build-script, the language service sees the `.js`-generated version.
 
 ## Examples
 
