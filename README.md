@@ -22,7 +22,7 @@ This repo is an example of how importing handwritten `.d.ts` goes wrong today.
 Build it using `tsc -b` and observe...
 
 - [./app-src/app.ts](./app-src/app.ts) should error but it does not.
-- [./app-src/app.ts](./app-src/app.ts)  incorrectly has access to `hiddenBar` because [./lib-src/main.d.ts](./lib-src/main.d.ts) is being ignored.
+- [./app-src/app.ts](./app-src/app.ts) incorrectly has access to `hiddenBar` because [./lib-src/main.d.ts](./lib-src/main.d.ts) is being ignored.
 
 ## Checklist
 
