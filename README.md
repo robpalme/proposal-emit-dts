@@ -6,7 +6,7 @@ emit .d.ts, handwritten declaration files, Project References, outDir
 
 ## Suggestion
 
-Introduce a tsconfig option `"emitDts": true` that will emit `.d.ts` source files into the `outDir`/`declarationDir`, taking precedence over any `.js`-generated `.d.ts` files.
+Introduce a tsconfig option `"emitDts": true` that will emit `.d.ts` source files into the `outDir`, taking precedence over any `.js`-generated `.d.ts` files.
 
 ## Use Cases
 
