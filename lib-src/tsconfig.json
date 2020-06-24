@@ -1,14 +1,14 @@
 {
     "compilerOptions": {
-        "outDir": "./.out",
+        "outDir": "../lib-out",
         "baseUrl": ".",
         "declaration": true,
         "allowJs": true,
         "strict": true,
-        "composite": true
+        "composite": true,
     },
     "include": [
         "**/*.js",
         "**/*.ts"
-    ]
+    ],
 }

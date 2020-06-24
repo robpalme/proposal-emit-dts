@@ -1,14 +1,11 @@
 {
     "compilerOptions": {
-        "outDir": "./.out",
+        "outDir": "../app-out",
         "baseUrl": ".",
         "declaration": true,
         "allowJs": true,
         "strict": true,
-        "composite": true,
-        "paths": {
-            "#canonicalized@lib": ["../lib/.out/main"]
-        }
+        "composite": true
     },
     "include": [
         "**/*.js",
@@ -17,7 +14,7 @@
     
     "references": [
         {
-            "path": "../lib"
+            "path": "../lib-src"
         }
     ]
 }
