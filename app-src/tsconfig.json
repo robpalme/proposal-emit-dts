@@ -12,11 +12,5 @@
     "include": [
         "**/*.js",
         "**/*.ts"
-    ],
-    
-    "references": [
-        {
-            "path": "../lib-src"
-        }
     ]
 }

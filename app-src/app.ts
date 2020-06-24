@@ -1,5 +1,5 @@
-import { foo} from "../lib-out/main";
+import { foo } from "../lib-out/main";
 foo;
-
-import { hiddenBar} from "../lib-out/main";
+//@ts-expect-error hiddenBar should not be accessible
+import { hiddenBar } from "../lib-out/main";
 hiddenBar;
