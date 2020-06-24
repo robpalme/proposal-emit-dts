@@ -18,7 +18,7 @@ You can work-around lack of by `"emitDts": true` by writing a build-script that 
 
 ## Examples
 
-TODO: link to repo
+TODO: link to this repo
 
 ## Checklist
 
