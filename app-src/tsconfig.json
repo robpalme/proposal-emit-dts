@@ -5,7 +5,9 @@
         "declaration": true,
         "allowJs": true,
         "strict": true,
-        "composite": true
+        "composite": true,
+        "target": "esnext",
+        "module": "esnext"
     },
     "include": [
         "**/*.js",

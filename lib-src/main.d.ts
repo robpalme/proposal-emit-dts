@@ -1,2 +1,4 @@
 export declare const foo : number;
-export declare const bar : number;
+
+// Deny access to hiddenBar
+//export declare const hiddenBar : number;
